@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
+html, body, main {
+    height: 100%;
+}
+
+body {
+    .font-regular();
+    position: relative;
+    overflow: hidden;
+}
+
+canvas {
+    .font-regular();
+}
+
+._margin_no {
+    margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: underline;
+    }
+
+}
+
+._page-limiter {
+    max-width: 1180px;
+    margin: auto;
+}
+
+button {
+    padding: 0;
+}
+
+._hidden {
+    display: none !important;
+}
+
+h3, h1 {
+    margin: 40px 0 20px;
+}
